@@ -1,0 +1,31 @@
+
+.sectionWrapper{
+    position:absolute;
+    width:180px;
+    height:auto;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    top:18.5rem;
+    left:20rem;
+}
+
+.sections{
+    // border: 1px solid black;
+    padding-left: 1rem;
+}
+
+ .sectionItems li{
+    padding:1rem 0;
+    color:grey;
+    cursor: pointer;
+}
+
+hr{
+  border:none;
+  height: 1px;
+  background-color:rgb(212, 205, 205);
+}
+
+.sectionItems{
+    list-style: none;
+}

@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+.Container {
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  height: 70%;
+  width: 100%;
+}
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.28;
+      -ms-flex: 0.28;
+          flex: 0.28;
+}
+
+.Right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  background-color: white;
+  text-decoration: none;
+  color: black !important;
+}
+
+.navItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style: none;
+  font-size: 18px;
+}
+
+.careerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  background-color: #E5E5E5;
+  height: 100vh;
+}
+
+.careerContainer .Heading {
+  margin: 0.5rem;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.jobCardTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+}
+
+.jobCard {
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jobCardLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100%;
+  width: 74%;
+  padding-top: 0.5rem;
+}
+
+.description {
+  line-height: 1.5rem;
+  font-size: 19px;
+}
+
+.desc {
+  display: inline;
+  font-weight: 300;
+}
+
+#short {
+  display: inline;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+span {
+  margin-left: 1rem;
+}
+
+.jobType {
+  font-size: 19px;
+}
+
+.jobCardRight {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#paid {
+  color: #4dff0f;
+}
+
+#heart {
+  color: red;
+}
+
+.rightWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 50%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+
+.CareerPageMain {
+  padding: 0 3rem;
+  background-color: #E5E5E5;
+}
+
+.header {
+  font-size: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.toolGroup1 {
+  height: 8rem;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  gap: 0.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titleTool {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#title {
+  outline-style: none;
+  font-size: 22px;
+  border: none;
+  font-weight: 300;
+  height: 3rem;
+  padding: 0.8rem 0.4rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  width: 80%;
+  padding-left: 1.5rem;
+}
+
+#title::-webkit-input-placeholder {
+  color: black;
+}
+
+#title:-ms-input-placeholder {
+  color: black;
+}
+
+#title::-ms-input-placeholder {
+  color: black;
+}
+
+#title::placeholder {
+  color: black;
+}
+
+#employment {
+  outline-style: none;
+  font-size: 18px;
+  border: none;
+  font-weight: 300;
+  height: 3rem;
+  padding: 0.8rem 0.4rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  padding-left: 1.5rem;
+  margin-left: -35%;
+  width: 135%;
+  cursor: pointer;
+}
+
+#employment::-webkit-input-placeholder {
+  color: black;
+}
+
+#employment:-ms-input-placeholder {
+  color: black;
+}
+
+#employment::-ms-input-placeholder {
+  color: black;
+}
+
+#employment::placeholder {
+  color: black;
+}
+
+#workplace {
+  outline-style: none;
+  font-size: 18px;
+  border: none;
+  font-weight: 300;
+  height: 3rem;
+  padding: 0.8rem 0.4rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  padding-left: 1.5rem;
+  margin-left: -20%;
+  width: 110%;
+  cursor: pointer;
+}
+
+#workplace::-webkit-input-placeholder {
+  color: black;
+}
+
+#workplace:-ms-input-placeholder {
+  color: black;
+}
+
+#workplace::-ms-input-placeholder {
+  color: black;
+}
+
+#workplace::placeholder {
+  color: black;
+}
+
+#location {
+  outline-style: none;
+  font-size: 18px;
+  border: none;
+  font-weight: 300;
+  height: 3rem;
+  padding: 1.5rem 0.75rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  width: 70%;
+}
+
+#location::-webkit-input-placeholder {
+  color: black;
+}
+
+#location:-ms-input-placeholder {
+  color: black;
+}
+
+#location::-ms-input-placeholder {
+  color: black;
+}
+
+#location::placeholder {
+  color: black;
+}
+
+#paidTool {
+  outline-style: none;
+  font-size: 18px;
+  border: none;
+  font-weight: 300;
+  height: 3rem;
+  padding: 0.8rem 0.4rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  padding-left: 1.5rem;
+  margin-left: -10%;
+  width: 110%;
+}
+
+#paidTool::-webkit-input-placeholder {
+  color: black;
+}
+
+#paidTool:-ms-input-placeholder {
+  color: black;
+}
+
+#paidTool::-ms-input-placeholder {
+  color: black;
+}
+
+#paidTool::placeholder {
+  color: black;
+}
+
+#jobSection {
+  outline-style: none;
+  font-size: 18px;
+  border: none;
+  font-weight: 300;
+  height: 3rem;
+  padding: 0.8rem 0.4rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  padding-left: 1.5rem;
+  margin-left: -30%;
+  width: 110%;
+  cursor: pointer;
+}
+
+#jobSection::-webkit-input-placeholder {
+  color: black;
+}
+
+#jobSection:-ms-input-placeholder {
+  color: black;
+}
+
+#jobSection::-ms-input-placeholder {
+  color: black;
+}
+
+#jobSection::placeholder {
+  color: black;
+}
+
+.toolGroup2 {
+  margin: 4rem 0 2rem 0;
+}
+
+#shortDescription {
+  outline-style: none;
+  font-size: 22px;
+  border: none;
+  font-weight: 300;
+  height: 3rem;
+  padding: 2rem 1rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  height: 3.5rem;
+}
+
+#shortDescription::-webkit-input-placeholder {
+  color: black;
+}
+
+#shortDescription:-ms-input-placeholder {
+  color: black;
+}
+
+#shortDescription::-ms-input-placeholder {
+  color: black;
+}
+
+#shortDescription::placeholder {
+  color: black;
+}
+
+.textSection {
+  padding: 2rem 1rem;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+#heading {
+  font-size: 28px;
+  margin: 0 0 1rem 0;
+}
+
+#subheading {
+  margin-bottom: 0.5rem;
+  margin-right: -1rem;
+  font-size: 18px;
+}
+
+#subheading #asteric {
+  color: blue;
+  margin-left: 0.1rem;
+  font-weight: 500;
+}
+
+#textarea {
+  resize: none;
+}
+
+#icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  height: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  font-size: large;
+}
+
+.one {
+  height: 20px;
+  width: 20px;
+  color: grey;
+}
+
+.skillHeading {
+  font-size: 28px;
+  margin: 2rem 0 0.2rem 0;
+}
+
+.skillSubheading {
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 2rem;
+}
+
+#addSkill {
+  border: 1.5px solid green;
+  color: green;
+  font-size: 18px;
+  font-weight: 500;
+  width: 125px;
+  height: 35px;
+  padding: 0 auto;
+  margin-left: 0.3rem;
+  border-radius: 20px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+#plus {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.submitButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 1rem 0;
+}
+
+.submit {
+  width: 110px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: #c4c4c4;
+  border: none;
+  cursor: pointer;
+}
+
+.sectionWrapper {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  top: 18.5rem;
+  left: 20rem;
+}
+
+.sections {
+  padding-left: 1rem;
+}
+
+.sectionItems li {
+  padding: 1rem 0;
+  color: grey;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #d4cdcd;
+}
+
+.sectionItems {
+  list-style: none;
+}
+
+.workplaceContainer {
+  height: auto;
+  width: 19.5rem;
+  background-color: #fff;
+  position: absolute;
+  top: 18.5rem;
+  right: 23.25rem;
+  border-radius: 3px;
+  -webkit-box-shadow: 0.5px 0px 1px #b0afaf;
+          box-shadow: 0.5px 0px 1px #b0afaf;
+}
+
+.onsite {
+  height: 40px;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #636363;
+  font-size: 13px;
+}
+
+.Hybrid {
+  height: 40px;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #636363;
+  font-size: 13px;
+}
+
+.Remote {
+  height: 40px;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #636363;
+  font-size: 13px;
+}
+
+.Header {
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.JobTypes {
+  position: absolute;
+  top: 14rem;
+  right: 10rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2ps solid black;
+  background-color: #646362;
+  color: #edecec;
+  padding: 0.1rem 0 0.1rem 0.5rem;
+  cursor: pointer;
+}
+
+label {
+  padding: 0 2.5rem 0 0;
+}
+
+input[type="checkbox"] {
+  height: 15px;
+  width: 15px;
+  border: none;
+  outline-style: none;
+  background-color: #646362;
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #646362;
+  height: 15px;
+  width: 15px;
+  border: none;
+  outline-style: none;
+  visibility: visible;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+}
+/*# sourceMappingURL=Style.css.map */

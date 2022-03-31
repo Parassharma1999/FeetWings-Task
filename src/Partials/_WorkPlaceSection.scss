@@ -1,0 +1,42 @@
+@mixin common{
+   height:40px;
+   margin:1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   color:rgb(99, 99, 99);
+     
+}
+
+.workplaceContainer{
+  height:auto;
+  width:19.5rem;
+  background-color: #fff;
+  position: absolute;
+  top:18.5rem;
+  right:23.25rem;
+  border-radius:3px ;
+  box-shadow: 0.5px 0px 1px rgb(176, 175, 175);
+}
+.onsite{
+ @include common();
+ font-size:13px;
+
+}
+
+.Hybrid{
+   @include common();
+   font-size:13px;
+
+}
+
+  .Remote{
+   @include common();
+   font-size:13px;
+
+  }
+ 
+  .Header{
+     font-weight: 550;
+     font-size:16px;
+  }

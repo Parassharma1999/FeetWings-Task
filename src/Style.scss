@@ -1,0 +1,14 @@
+@import "./Partials/Navbar";
+@import "./Partials/CareerPage2";
+@import "./Partials/CareerPageMain";
+@import "./Partials//JobSection";
+@import "./Partials/WorkPlaceSection";
+@import "./Partials/EmploymentSection";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Roboto;
+}

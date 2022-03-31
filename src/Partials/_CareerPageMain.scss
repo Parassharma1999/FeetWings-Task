@@ -1,0 +1,194 @@
+$headings:28px;
+$subheading:20px;
+$iconsSize:20;
+
+
+@mixin tools($fontSize,$size) {
+    outline-style: none;
+    font-size: $fontSize;
+    border:none;
+    font-weight:300;
+    height: 3rem;
+    padding:$size 0.5*$size;
+    border-radius:15px;
+    width:100%;
+    background-color: rgba(196, 196, 196, 0.5);
+    &::placeholder
+    {
+        color:black;
+    }
+}
+
+
+.CareerPageMain{
+    padding: 0 3rem;
+    background-color: #E5E5E5;
+    
+}
+
+.header{
+    font-size: 40px;
+    width:fit-content;
+    margin:0 auto;
+    padding: 2rem;
+}
+
+.toolGroup1{
+    height: 8rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    gap: 0.8rem;
+    align-items: center;    
+}
+
+.titleTool{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#title{
+    @include tools(22px,0.8rem);
+    width: 80%;
+    padding-left:1.5rem;
+}
+
+#employment{
+  @include tools(18px,0.8rem);
+  padding-left:1.5rem;
+  margin-left: -35%;
+  width:135%;
+  cursor:pointer;
+}
+
+#workplace{
+    @include tools(18px,0.8rem);
+    padding-left:1.5rem;
+    margin-left: -20%;
+    width:110%;
+    cursor:pointer;
+  }
+
+  #location{
+    @include tools(18px,1.5rem);
+    width: 70%;
+  }
+
+  #paidTool{
+    @include tools(18px,0.8rem);
+    padding-left:1.5rem;
+    margin-left: -10%;
+    width:110%
+  }
+
+#jobSection{
+  @include tools(18px,0.8rem);
+  padding-left:1.5rem;
+  margin-left: -30%;
+  width:110%;
+  cursor:pointer;
+}
+
+.toolGroup2{
+    margin:4rem 0 2rem 0;
+}
+
+#shortDescription{
+    @include tools(22px,2rem);
+    height:3.5rem;
+
+}
+
+.textSection{
+    padding:2rem 1rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+#heading{
+ font-size: $headings;
+ margin: 0 0 1rem 0;
+}
+
+#subheading{
+ margin-bottom: 0.5rem;
+ margin-right: -1rem;
+ font-size: 18px;
+ #asteric{
+     color:blue;
+     margin-left:0.1rem;
+     font-weight: 500;
+ }
+}
+
+#textarea{
+    resize: none;
+}
+
+#icons{
+    display: flex;
+    width:250px;
+    height: 2rem;;
+    justify-content: space-between;
+    margin:0.5rem 0.5rem 0 0.5rem;
+    font-size: large;
+}
+
+.one{
+height:20px;
+width: 20px;
+color: grey;
+}
+
+.skillHeading{
+    font-size: $headings;
+    margin:2rem 0 0.2rem 0;
+   
+}  
+    .skillSubheading{
+    font-size: 18px;
+    color:grey;
+    margin-bottom: 2rem;
+    }
+
+
+#addSkill{
+  border:1.5px solid green;
+  color:green;
+  font-size: 18px;
+  font-weight: 500;
+  width:125px;
+  height: 35px;
+  padding:0 auto;
+  margin-left: 0.3rem;
+//   text-align: center;
+  border-radius: 20px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#plus{
+    margin-left:10px;
+    font-size:25px;
+}
+
+.submitButton{
+  display: flex;
+  flex-direction:row-reverse;
+  padding:1rem 0;
+}
+
+.submit{
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgba(196, 196, 196, 1);
+    border:none;
+  cursor: pointer;
+
+}
